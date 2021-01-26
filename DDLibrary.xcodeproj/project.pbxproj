@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		4596495225BE065A00FF870F /* DDLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4596495025BE065A00FF870F /* DDLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45CFEFA925BE1584003E9AE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEF9F25BE1584003E9AE4 /* NetworkManager.swift */; };
+		45CFEFAA25BE1584003E9AE4 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA125BE1584003E9AE4 /* Hero.swift */; };
+		45CFEFAB25BE1584003E9AE4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA225BE1584003E9AE4 /* Result.swift */; };
+		45CFEFAC25BE1584003E9AE4 /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA325BE1584003E9AE4 /* Connections.swift */; };
+		45CFEFAD25BE1584003E9AE4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA425BE1584003E9AE4 /* Image.swift */; };
+		45CFEFAE25BE1584003E9AE4 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA525BE1584003E9AE4 /* Work.swift */; };
+		45CFEFAF25BE1584003E9AE4 /* Powerstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA625BE1584003E9AE4 /* Powerstats.swift */; };
+		45CFEFB025BE1584003E9AE4 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA725BE1584003E9AE4 /* Appearance.swift */; };
+		45CFEFB125BE1584003E9AE4 /* Biography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFEFA825BE1584003E9AE4 /* Biography.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4596494D25BE065A00FF870F /* DDLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4596495025BE065A00FF870F /* DDLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDLibrary.h; sourceTree = "<group>"; };
 		4596495125BE065A00FF870F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CFEF9F25BE1584003E9AE4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		45CFEFA125BE1584003E9AE4 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		45CFEFA225BE1584003E9AE4 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		45CFEFA325BE1584003E9AE4 /* Connections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		45CFEFA425BE1584003E9AE4 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		45CFEFA525BE1584003E9AE4 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		45CFEFA625BE1584003E9AE4 /* Powerstats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powerstats.swift; sourceTree = "<group>"; };
+		45CFEFA725BE1584003E9AE4 /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		45CFEFA825BE1584003E9AE4 /* Biography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Biography.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,7 @@
 			children = (
 				4596494F25BE065A00FF870F /* DDLibrary */,
 				4596494E25BE065A00FF870F /* Products */,
+				86A92ED41AE74BC8D75E8CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +65,50 @@
 		4596494F25BE065A00FF870F /* DDLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				45CFEF9D25BE1584003E9AE4 /* Source */,
 				4596495025BE065A00FF870F /* DDLibrary.h */,
 				4596495125BE065A00FF870F /* Info.plist */,
 			);
 			path = DDLibrary;
+			sourceTree = "<group>";
+		};
+		45CFEF9D25BE1584003E9AE4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45CFEF9E25BE1584003E9AE4 /* network */,
+				45CFEFA025BE1584003E9AE4 /* models */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		45CFEF9E25BE1584003E9AE4 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				45CFEF9F25BE1584003E9AE4 /* NetworkManager.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		45CFEFA025BE1584003E9AE4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				45CFEFA125BE1584003E9AE4 /* Hero.swift */,
+				45CFEFA225BE1584003E9AE4 /* Result.swift */,
+				45CFEFA325BE1584003E9AE4 /* Connections.swift */,
+				45CFEFA425BE1584003E9AE4 /* Image.swift */,
+				45CFEFA525BE1584003E9AE4 /* Work.swift */,
+				45CFEFA625BE1584003E9AE4 /* Powerstats.swift */,
+				45CFEFA725BE1584003E9AE4 /* Appearance.swift */,
+				45CFEFA825BE1584003E9AE4 /* Biography.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		86A92ED41AE74BC8D75E8CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4596495525BE065A00FF870F /* Build configuration list for PBXNativeTarget "DDLibrary" */;
 			buildPhases = (
+				4FECD49832BED39C56A5C1B7 /* [CP] Check Pods Manifest.lock */,
 				4596494825BE065A00FF870F /* Headers */,
 				4596494925BE065A00FF870F /* Sources */,
 				4596494A25BE065A00FF870F /* Frameworks */,
@@ -125,11 +185,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FECD49832BED39C56A5C1B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4596494925BE065A00FF870F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CFEFAB25BE1584003E9AE4 /* Result.swift in Sources */,
+				45CFEFAF25BE1584003E9AE4 /* Powerstats.swift in Sources */,
+				45CFEFA925BE1584003E9AE4 /* NetworkManager.swift in Sources */,
+				45CFEFB025BE1584003E9AE4 /* Appearance.swift in Sources */,
+				45CFEFB125BE1584003E9AE4 /* Biography.swift in Sources */,
+				45CFEFAE25BE1584003E9AE4 /* Work.swift in Sources */,
+				45CFEFAA25BE1584003E9AE4 /* Hero.swift in Sources */,
+				45CFEFAC25BE1584003E9AE4 /* Connections.swift in Sources */,
+				45CFEFAD25BE1584003E9AE4 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +371,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.DDLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,8 +396,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.DDLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
